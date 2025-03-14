@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-text: #000;
+  --color-stext: #fff4eb;
+  --color-accent: rgba(36, 154, 10, 0.87);
+  --color-bg: #fff4eb;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: Bonche, sans-serif;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@font-face {
+  font-family: "Bonche";
+  font-weight: 300;
+  font-display: swap;
+  src: url("./assets/fonts/Bonche.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lovelies";
+  font-weight: 300;
+  font-display: swap;
+  src: url("./assets/fonts/Lovelies.otf") format("opentype");
+}

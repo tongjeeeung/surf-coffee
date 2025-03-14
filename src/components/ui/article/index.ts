@@ -1,0 +1,1 @@
+export { ArticleUI } from "./article";
