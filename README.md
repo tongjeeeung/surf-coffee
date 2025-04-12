@@ -45,3 +45,5 @@ npm run dev
 
 ```
 Перейти на http://localhost:5173/surf-coffee
+
+...
